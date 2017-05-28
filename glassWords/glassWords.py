@@ -16,8 +16,6 @@ flip_trimmed_words = map(lambda x: x[::-1], filter(approved_letter.match, total_
 
 final_words = []
 
-quickcheck = False
-
 for word in flip_trimmed_words:
     new_word = ""
     for c in word:
